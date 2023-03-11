@@ -47,7 +47,7 @@
       "type": 3,
       "title": "cloudflared",
       "description": "Cloudflared tunnel application",
-      "categories": ["Homelab", "Tunneling"],
+      "categories": ["Homelab", "Tooling"],
       "platform": "linux",
       "repository": {
         "url": "https://github.com/HomelabGeneration/docker-applications-third-party",
@@ -57,6 +57,35 @@
         {
           "name": "TOKEN",
           "label": "Token"
+        }
+      ]
+    },
+    {
+      "type": 3,
+      "title": "Heimdall",
+      "description": "Heimdall is an elegant solution to organise all your web applications. It’s dedicated to this purpose so you won’t lose your links in a sea of bookmarks.",
+      "categories": ["Homelab", "Tunneling"],
+      "platform": "linux",
+      "repository": {
+        "url": "https://github.com/HomelabGeneration/docker-applications-third-party",
+        "stackfile": "applications/heimdall/docker-compose.yml"
+      },
+      "env": [
+        {
+          "name": "PUID",
+          "label": "PUID",
+          "description": "for UserID"
+        },
+        {
+          "name": "PGID",
+          "label": "PGID",
+          "description": "for GroupID"
+        },
+        {
+          "name": "VOLUME_NAME",
+          "label": "Volume name",
+          "description": "Volume name for config data",
+          "default": "heimdall_config"
         }
       ]
     }
