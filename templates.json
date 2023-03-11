@@ -7,7 +7,6 @@
       "description": "Diun - Docker Image Update Notifier",
       "categories": ["Homelab", "Maintenance"],
       "platform": "linux",
-      "logo": "https://crazymax.dev/diun/assets/logo.png",
       "repository": {
         "url": "https://github.com/HomelabGeneration/docker-applications-third-party",
         "stackfile": "applications/diun/docker-compose.yml"
