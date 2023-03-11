@@ -1,0 +1,37 @@
+{
+  "version": "2",
+  "templates": [
+    {
+      "type": 3,
+      "title": "diun",
+      "description": "Diun - Docker Image Update Notifier",
+      "categories": ["Homelab", "Maintenance"],
+      "platform": "linux",
+      "logo": "https://crazymax.dev/diun/assets/logo.png",
+      "repository": {
+        "url": "https://github.com/HomelabGeneration/docker-applications-third-party",
+        "stackfile": "applications/diun/docker-compose.yml"
+      },
+      "env": [
+        {
+          "name": "VOLUME_NAME",
+          "label": "Volume name"
+        },
+        {
+          "name": "CRON_SCHEDULE",
+          "label": "Cron schedule"
+        },
+        {
+          "name": "NOTIF_WEBHOOK_ENDPOINT",
+          "label": "Notification webhook endpoint"
+        },
+        {
+          "name": "NOTIF_WEBHOOK_METHOD",
+          "label": "Notification webhook method",
+          "default": "GET",
+          "preset": true
+        }
+      ]
+    }
+  ]
+}
