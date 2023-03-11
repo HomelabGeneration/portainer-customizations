@@ -72,6 +72,14 @@
       },
       "env": [
         {
+          "name": "HTTP_PORT",
+          "label": "HTTP port"
+        },
+        {
+          "name": "HTTPS_PORT",
+          "label": "HTTPS port"
+        },
+        {
           "name": "PUID",
           "label": "PUID",
           "description": "for UserID"
