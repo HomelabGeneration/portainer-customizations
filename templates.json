@@ -21,7 +21,7 @@
         {
           "name": "CRON_SCHEDULE",
           "label": "Cron schedule",
-          "default": "*/5 * * * *"
+          "default": "0 */6 * * *"
         },
         {
           "name": "NOTIF_WEBHOOK_ENDPOINT",
