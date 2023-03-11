@@ -3,7 +3,7 @@
   "templates": [
     {
       "type": 3,
-      "title": "diun",
+      "title": "Diun",
       "description": "Diun - Docker Image Update Notifier",
       "categories": ["Homelab", "Maintenance"],
       "platform": "linux",
@@ -45,7 +45,7 @@
     },
     {
       "type": 3,
-      "title": "cloudflared",
+      "title": "Cloudflared",
       "description": "Cloudflared tunnel application",
       "categories": ["Homelab", "Tooling"],
       "platform": "linux",
