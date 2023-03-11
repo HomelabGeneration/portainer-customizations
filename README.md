@@ -1,2 +1,10 @@
 # portainer-application-templates
+
 Holding custom portainer application templates.
+
+The application templates can be used in portainer by starting container like: 
+
+```
+docker run -d -p 9443:9443 -p 8000:8000 --name portainer -v portainer_data:/data -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer-ee:latest --templates https://homelabgeneration.github.io/portainer-application-templates/templates.json
+```
+
