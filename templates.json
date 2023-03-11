@@ -50,7 +50,6 @@
       "description": "Cloudflared tunnel application",
       "categories": ["Homelab", "Tunneling"],
       "platform": "linux",
-      "logo": "https://de.wikipedia.org/wiki/Cloudflare#/media/Datei:Cloudflare_logo.svg",
       "repository": {
         "url": "https://github.com/HomelabGeneration/docker-applications-third-party",
         "stackfile": "applications/cloudflared/docker-compose.yml"
