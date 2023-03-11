@@ -15,11 +15,13 @@
       "env": [
         {
           "name": "VOLUME_NAME",
-          "label": "Volume name"
+          "label": "Volume name",
+          "default": "diun_data"
         },
         {
           "name": "CRON_SCHEDULE",
-          "label": "Cron schedule"
+          "label": "Cron schedule",
+          "default": "*/5 * * * *"
         },
         {
           "name": "NOTIF_WEBHOOK_ENDPOINT",
@@ -28,8 +30,17 @@
         {
           "name": "NOTIF_WEBHOOK_METHOD",
           "label": "Notification webhook method",
-          "default": "GET",
-          "preset": true
+          "select": [
+            {
+              "text": "POST",
+              "value": "POST",
+              "default": true
+            },
+            {
+              "text": "GET",
+              "value": "GET"
+            }
+          ]
         }
       ]
     }
