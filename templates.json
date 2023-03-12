@@ -122,6 +122,29 @@
           "label": "Password"
         }
       ]
+    },
+    {
+      "type": 3,
+      "title": "Openspeedtest",
+      "description": "SpeedTest by OpenSpeedTest™ - Free & Open-Source HTML5 Network Performance Estimation Tool. ",
+      "categories": ["Homelab", "Tooling"],
+      "platform": "linux",
+      "repository": {
+        "url": "https://github.com/HomelabGeneration/docker-applications-third-party",
+        "stackfile": "applications/openspeedtest/docker-compose.yml"
+      },
+      "env": [
+        {
+          "name": "HTTP_PORT",
+          "label": "HTTP port",
+          "default": "3000"
+        },
+        {
+          "name": "HTTPS_PORT",
+          "label": "HTTPS port",
+          "default": "3001"
+        }
+      ]
     }
   ]
 }
