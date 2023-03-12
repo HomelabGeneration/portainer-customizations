@@ -111,7 +111,15 @@
         {
           "name": "HTTP_PORT",
           "label": "HTTP port",
-          "default": 9999
+          "default": "9999"
+        },
+        {
+          "name": "DOZZLE_USERNAME",
+          "label": "Username"
+        },
+        {
+          "name": "DOZZLE_PASSWORD",
+          "label": "Password"
         }
       ]
     }
