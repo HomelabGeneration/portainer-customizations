@@ -1,8 +1,10 @@
-# portainer-application-templates
+# Portainer customizations
 
-Holding custom portainer application templates.
+Holding portainer customizations like a custom list of application templates.
 
-The application templates can be used in portainer by starting container like: 
+## Portainer startup command
+
+By using the following startup options you can use the customizations provided by the repository.
 
 ```
 docker run -d \
