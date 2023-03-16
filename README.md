@@ -13,6 +13,7 @@ docker run -d \
  --name portainer \
  -v portainer_data:/data \
  -v /var/run/docker.sock:/var/run/docker.sock \
+ --restart=always \
  portainer/portainer-ee:latest \
  --templates https://homelabgeneration.github.io/portainer-customizations/templates.json \
  --logo https://homelabgeneration.github.io/portainer-customizations/portainer_logo.png
