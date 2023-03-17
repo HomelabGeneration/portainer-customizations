@@ -137,12 +137,12 @@
         {
           "name": "HTTP_PORT",
           "label": "HTTP port",
-          "default": "3000"
+          "default": "3001"
         },
         {
           "name": "HTTPS_PORT",
           "label": "HTTPS port",
-          "default": "3001"
+          "default": "3002"
         }
       ]
     },
@@ -201,6 +201,24 @@
         {
           "name": "WEBDAV_PASSWORD",
           "label": "WebDAV Password"
+        }
+      ]
+    },
+    {
+      "type": 3,
+      "title": "Grafana",
+      "description": "Operational dashboards for your data here, there, or anywhere",
+      "categories": ["Homelab", "Tooling", "Charts"],
+      "platform": "linux",
+      "repository": {
+        "url": "https://github.com/HomelabGeneration/docker-applications-third-party",
+        "stackfile": "applications/grafana/docker-compose.yml"
+      },
+      "env": [
+        {
+          "name": "HTTP_PORT",
+          "label": "HTTP port",
+          "default": "3000"
         }
       ]
     }
