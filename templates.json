@@ -219,6 +219,10 @@
           "name": "HTTP_PORT",
           "label": "HTTP port",
           "default": "3000"
+        },
+        {
+          "name": "VOLUME_NAME",
+          "label": "Volume name"
         }
       ]
     }
