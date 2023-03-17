@@ -225,6 +225,32 @@
           "label": "Volume name"
         }
       ]
+    },
+    {
+      "type": 3,
+      "title": "InfluxDB 2.0",
+      "description": "InfluxDB is an open source time series database for recording metrics, events, and analytics.",
+      "categories": ["Homelab", "Tooling", "Database"],
+      "platform": "linux",
+      "repository": {
+        "url": "https://github.com/HomelabGeneration/docker-applications-third-party",
+        "stackfile": "applications/influxdb/docker-compose.yml"
+      },
+      "env": [
+        {
+          "name": "HTTP_PORT",
+          "label": "HTTP port",
+          "default": "8086"
+        },
+        {
+          "name": "VOLUME_NAME_DATA",
+          "label": "Volume name data"
+        },
+        {
+          "name": "VOLUME_NAME_CONFIG",
+          "label": "Volume name config"
+        }
+      ]
     }
   ]
 }
