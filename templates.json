@@ -145,6 +145,64 @@
           "default": "3001"
         }
       ]
+    },
+    {
+      "type": 3,
+      "title": "Docker volume backup",
+      "description": "Backup Docker volumes locally or to any S3, WebDAV, Azure Blob Storage or SSH compatible storage. (this app WebDav only currently)",
+      "categories": ["Homelab", "Backup", "Tooling"],
+      "platform": "linux",
+      "repository": {
+        "url": "https://github.com/HomelabGeneration/docker-applications-third-party",
+        "stackfile": "applications/docker_volume_backup/docker-compose.yml"
+      },
+      "env": [
+        {
+          "name": "VOLUME_NAME",
+          "label": "Volume name",
+          "description": "Volume to backup"
+        },
+        {
+          "name": "BACKUP_CRON_EXPRESSION",
+          "label": "Cron",
+          "description": "Cron expression to schedule the backup"
+        },
+        {
+          "name": "BACKUP_FILENAME",
+          "label": "Backup filename",
+          "description": "Filename to use for the backup e.g. backup-%Y-%m-%dT%H-%M-%S.tar.gz"
+        },
+        {
+          "name": "BACKUP_RETENTION_DAYS",
+          "label": "Backup retention days"
+        },
+        {
+          "name": "BACKUP_STOP_CONTAINER_LABEL",
+          "label": "Container label to stop"
+        },
+        {
+          "name": "GPG_PASSPHRASE",
+          "label": "GPG passphrase",
+          "description": "GPG passphrase used to encrypt the backup"
+        },
+        {
+          "name": "WEBDAV_URL",
+          "label": "WebDAV URL"
+        },
+        {
+          "name": "WEBDAV_PATH",
+          "label": "WebDAV Path",
+          "description": "Backup location on the WebDAV target"
+        },
+        {
+          "name": "WEBDAV_USERNAME",
+          "label": "WebDAV Username"
+        },
+        {
+          "name": "WEBDAV_PASSWORD",
+          "label": "WebDAV Password"
+        }
+      ]
     }
   ]
 }
