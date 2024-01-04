@@ -114,12 +114,8 @@
           "default": "9999"
         },
         {
-          "name": "DOZZLE_USERNAME",
-          "label": "Username"
-        },
-        {
-          "name": "DOZZLE_PASSWORD",
-          "label": "Password"
+          "name": "DOZZLE_DATA_PATH",
+          "label": "Data path (e.g. for users.yml)"
         }
       ]
     },
