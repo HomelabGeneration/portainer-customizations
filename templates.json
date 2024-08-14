@@ -173,8 +173,8 @@
           "label": "Backup retention days"
         },
         {
-          "name": "BACKUP_STOP_CONTAINER_LABEL",
-          "label": "Container label to stop"
+          "name": "BACKUP_STOP_DURING_BACKUP_LABEL",
+          "label": "Container label to stop during backup"
         },
         {
           "name": "GPG_PASSPHRASE",
@@ -301,6 +301,21 @@
           "name": "PAPERLESS_APP_TITLE",
           "label": "Paperless App Title",
           "default": "Paperless-ngx"
+        },
+        {
+          "name": "PAPERLESS_WEBSERVER_BACKUP_SERVICE_LABEL",
+          "label": "Paperless Webserver Backup Service label",
+          "default": "paperless-webserver"
+        },
+        {
+          "name": "PAPERLESS_DB_BACKUP_SERVICE_LABEL",
+          "label": "Paperless DB Backup Service label",
+          "default": "paperless-db"
+        },
+        {
+          "name": "PAPERLESS_BROKER_BACKUP_SERVICE_LABEL",
+          "label": "Paperless Broker Backup Service label",
+          "default": "paperless-broker"
         },
         {
           "name": "VOLUME_NAME_DATA",
