@@ -303,11 +303,6 @@
           "default": "Paperless-ngx"
         },
         {
-          "name": "PAPERLESS_APP_TITLE",
-          "label": "Paperless App Title",
-          "default": "Paperless-ngx"
-        },
-        {
           "name": "VOLUME_NAME_DATA",
           "label": "Volume name data"
         },
