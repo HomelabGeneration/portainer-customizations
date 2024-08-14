@@ -247,6 +247,83 @@
           "label": "Volume name config"
         }
       ]
+    },
+    {
+      "type": 3,
+      "title": "Paperless-ngx",
+      "description": "Paperless-ngx is a community-supported open-source document management system that transforms your physical documents into a searchable online archive so you can keep, well, less paper.",
+      "categories": ["Homelab", "Tooling"],
+      "platform": "linux",
+      "repository": {
+        "url": "https://github.com/HomelabGeneration/docker-applications-third-party",
+        "stackfile": "applications/paperlessngx/docker-compose.yml"
+      },
+      "env": [
+        {
+          "name": "POSTGRESS_DB",
+          "label": "Postgress DB",
+          "default": "paperless"
+        },
+        {
+          "name": "POSTGRESS_USER",
+          "label": "Postgress User",
+          "default": "paperless"
+        },
+        {
+          "name": "POSTGRESS_PASSWORD",
+          "label": "Postgress Password",
+          "default": "paperless"
+        },
+        {
+          "name": "HTTP_PORT",
+          "label": "HTTP port",
+          "default": "8010"
+        },
+        {
+          "name": "USER_UID",
+          "label": "User UID",
+          "default": "1000"
+        },
+        {
+          "name": "USER_GID",
+          "label": "User GID",
+          "default": "1000"
+        },
+        {
+          "name": "PAPERLESS_SECRET_KEY",
+          "label": "Paperless Secret Key"
+        },
+        {
+          "name": "PAPERLESS_URL",
+          "label": "Paperless URL"
+        },
+        {
+          "name": "PAPERLESS_APP_TITLE",
+          "label": "Paperless App Title",
+          "default": "Paperless-ngx"
+        },
+        {
+          "name": "PAPERLESS_APP_TITLE",
+          "label": "Paperless App Title",
+          "default": "Paperless-ngx"
+        },
+        {
+          "name": "VOLUME_NAME_DATA",
+          "label": "Volume name data"
+        },
+        {
+          "name": "VOLUME_NAME_MEDIA",
+          "label": "Volume name media"
+        },
+        {
+          "name": "VOLUME_NAME_PG_DATA",
+          "label": "Volume name postgress data"
+        },
+        {
+          "name": "VOLUME_NAME_REDIS_DATA",
+          "label": "Volume name redis data"
+        }
+      ]
     }
   ]
 }
