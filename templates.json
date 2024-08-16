@@ -116,6 +116,11 @@
         {
           "name": "DOZZLE_DATA_PATH",
           "label": "Data path (e.g. for users.yml)"
+        },
+        {
+          "name": "DOZZLE_REMOTE_AGENT_ONE",
+          "label": "Dozzle remote agent",
+          "description": "Provide in format host:port"
         }
       ]
     },
