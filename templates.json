@@ -239,7 +239,7 @@
       ]
     },
     {
-      "type": 3,
+      "type": 2,
       "title": "InfluxDB 2.0",
       "description": "InfluxDB is an open source time series database for recording metrics, events, and analytics.",
       "categories": ["Homelab", "Tooling", "Database"],
