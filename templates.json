@@ -52,13 +52,7 @@
       "repository": {
         "url": "https://github.com/HomelabGeneration/docker-applications-third-party",
         "stackfile": "applications/cloudflared/docker-compose.yml"
-      },
-      "env": [
-        {
-          "name": "TOKEN",
-          "label": "Token"
-        }
-      ]
+      }
     },
     {
       "type": 3,
