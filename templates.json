@@ -159,7 +159,7 @@
       ]
     },
     {
-      "type": 3,
+      "type": 2,
       "title": "Docker volume backup",
       "description": "Backup Docker volumes locally or to any S3, WebDAV, Azure Blob Storage or SSH compatible storage. (this app WebDav only currently)",
       "categories": ["Homelab", "Backup", "Tooling"],
@@ -193,11 +193,6 @@
           "label": "Container label to stop during backup"
         },
         {
-          "name": "GPG_PASSPHRASE",
-          "label": "GPG passphrase",
-          "description": "GPG passphrase used to encrypt the backup"
-        },
-        {
           "name": "WEBDAV_URL",
           "label": "WebDAV URL"
         },
@@ -209,10 +204,6 @@
         {
           "name": "WEBDAV_USERNAME",
           "label": "WebDAV Username"
-        },
-        {
-          "name": "WEBDAV_PASSWORD",
-          "label": "WebDAV Password"
         }
       ]
     },
