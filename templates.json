@@ -286,11 +286,6 @@
           "default": "paperless"
         },
         {
-          "name": "POSTGRESS_PASSWORD",
-          "label": "Postgress Password",
-          "default": "paperless"
-        },
-        {
           "name": "HTTP_PORT",
           "label": "HTTP port",
           "default": "8010"
@@ -304,10 +299,6 @@
           "name": "USER_GID",
           "label": "User GID",
           "default": "1000"
-        },
-        {
-          "name": "PAPERLESS_SECRET_KEY",
-          "label": "Paperless Secret Key"
         },
         {
           "name": "PAPERLESS_URL",
