@@ -61,7 +61,7 @@
       ]
     },
     {
-      "type": 3,
+      "type": 2,
       "title": "Heimdall",
       "description": "Heimdall is an elegant solution to organise all your web applications. It’s dedicated to this purpose so you won’t lose your links in a sea of bookmarks.",
       "categories": ["Homelab", "Tunneling"],
