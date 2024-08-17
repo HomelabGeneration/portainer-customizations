@@ -52,7 +52,13 @@
       "repository": {
         "url": "https://github.com/HomelabGeneration/docker-applications-third-party",
         "stackfile": "applications/cloudflared/docker-compose.yml"
-      }
+      },
+      "env": [
+        {
+          "name": "TUNNEL_NAME",
+          "label": "The cloudflare tunnel name you like to connect to."
+        }
+      ]
     },
     {
       "type": 3,
