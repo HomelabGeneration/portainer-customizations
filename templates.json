@@ -44,7 +44,7 @@
       ]
     },
     {
-      "type": 3,
+      "type": 2,
       "title": "Cloudflared",
       "description": "Cloudflared tunnel application",
       "categories": ["Homelab", "Tooling"],
