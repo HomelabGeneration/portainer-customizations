@@ -2,7 +2,7 @@
   "version": "2",
   "templates": [
     {
-      "type": 3,
+      "type": 2,
       "title": "Diun",
       "description": "Diun - Docker Image Update Notifier",
       "categories": ["Homelab", "Maintenance"],
