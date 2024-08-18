@@ -208,7 +208,7 @@
       ]
     },
     {
-      "type": 3,
+      "type": 2,
       "title": "Grafana",
       "description": "Operational dashboards for your data here, there, or anywhere",
       "categories": ["Homelab", "Tooling", "Charts"],
