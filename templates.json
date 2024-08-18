@@ -336,6 +336,30 @@
           "label": "Export dir"
         }
       ]
+    },
+    {
+      "type": 2,
+      "title": "Uptime Kuma",
+      "description": "Uptime Kuma is an easy-to-use self-hosted monitoring tool.",
+      "categories": ["Homelab", "Maintenance"],
+      "platform": "linux",
+      "repository": {
+        "url": "https://github.com/HomelabGeneration/docker-applications-third-party",
+        "stackfile": "applications/uptime_kuma/docker-compose.yml"
+      },
+      "env": [
+        {
+          "name": "HTTP_PORT",
+          "label": "HTTP port",
+          "default": "3001"
+        },
+        {
+          "name": "VOLUME_NAME",
+          "label": "Volume name",
+          "description": "Volume name for kuma data",
+          "default": "uptime_kuma"
+        }
+      ]
     }
   ]
 }
