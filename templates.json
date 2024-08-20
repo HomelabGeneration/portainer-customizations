@@ -204,6 +204,10 @@
         {
           "name": "WEBDAV_USERNAME",
           "label": "WebDAV Username"
+        },
+        {
+          "name": "AGE_PUBLIC_KEYS",
+          "label": "Age public keys (comma separated)"
         }
       ]
     },
