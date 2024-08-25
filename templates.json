@@ -374,7 +374,27 @@
       "repository": {
         "url": "https://github.com/HomelabGeneration/docker-applications-third-party",
         "stackfile": "applications/kicktipp_bot/docker-compose.yml"
-      }
+      },
+      "env": [
+        {
+          "name": "KICKTIPP_EMAIL",
+          "label": "Kicktipp email address to login"
+        },
+        {
+          "name": "KICKTIPP_NAME_OF_COMPETITION",
+          "label": "Competition name"
+        },
+        {
+          "name": "KICKTIPP_HOURS_UNTIL_GAME",
+          "label": "Hours untill the game starts",
+          "default": "8"
+        },
+        {
+          "name": "KICKTIPP_RUN_EVERY_X_MINUTES",
+          "label": "Run script every x minutes",
+          "default": "20"
+        }
+      ]
     }
   ]
 }
