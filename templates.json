@@ -364,6 +364,17 @@
           "default": "uptime_kuma"
         }
       ]
+    },
+    {
+      "type": 2,
+      "title": "Kicktipp Bot",
+      "description": "This script can automatically enter tips into Kicktipp based on the quotes of the bookmakers. It is written in Python and uses Selenium to interact with the website.",
+      "categories": ["Homelab", "Tooling"],
+      "platform": "linux",
+      "repository": {
+        "url": "https://github.com/HomelabGeneration/docker-applications-third-party",
+        "stackfile": "applications/kicktipp_bot/docker-compose.yml"
+      }
     }
   ]
 }
