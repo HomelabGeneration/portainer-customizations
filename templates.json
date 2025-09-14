@@ -419,6 +419,35 @@
           "default": "ollama_data"
         }
       ]
+    },
+    {
+      "type": 2,
+      "title": "EVCC",
+      "description": "EVCC Sonne tanken",
+      "categories": ["Homelab", "Maintenance"],
+      "platform": "linux",
+      "repository": {
+        "url": "https://github.com/HomelabGeneration/docker-applications-third-party",
+        "stackfile": "applications/evcc/docker-compose.yml"
+      },
+      "env": [
+        {
+          "name": "HTTP_PORT",
+          "label": "HTTP port",
+          "default": "7070"
+        },
+        {
+          "name": "OCPP_PORT",
+          "label": "OCPP port",
+          "default": "8887"
+        },
+        {
+          "name": "VOLUME_NAME",
+          "label": "Volume name",
+          "description": "Volume name for evcc data",
+          "default": "evcc_data"
+        }
+      ]
     }
   ]
 }
