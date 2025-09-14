@@ -446,6 +446,11 @@
           "label": "Volume name",
           "description": "Volume name for evcc data",
           "default": "evcc_data"
+        },
+        {
+          "name": "EVCC_BACKUP_SERVICE_LABEL",
+          "label": "EVCC Backup Service label",
+          "default": "evcc"
         }
       ]
     }
