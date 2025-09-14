@@ -424,7 +424,7 @@
       "type": 2,
       "title": "EVCC",
       "description": "EVCC Sonne tanken",
-      "categories": ["Homelab", "Maintenance"],
+      "categories": ["Homelab", "PV"],
       "platform": "linux",
       "repository": {
         "url": "https://github.com/HomelabGeneration/docker-applications-third-party",
