@@ -453,6 +453,40 @@
           "default": "evcc"
         }
       ]
+    },
+    {
+      "type": 2,
+      "title": "Victoria Metrics",
+      "description": "Simple & Reliable Monitoring That Scales",
+      "categories": ["Homelab", "Tooling", "Database"],
+      "platform": "linux",
+      "repository": {
+        "url": "https://github.com/HomelabGeneration/docker-applications-third-party",
+        "stackfile": "applications/victoriametrics/docker-compose.yml"
+      },
+      "env": [
+        {
+          "name": "HTTP_PORT",
+          "label": "HTTP port",
+          "default": "8428"
+        },
+        {
+          "name": "INFLUX_PORT",
+          "label": "Influx line protocol port",
+          "default": "8089"
+        },
+        {
+          "name": "VOLUME_NAME",
+          "label": "Volume name",
+          "description": "Volume name for victoriametrics data",
+          "default": "victoriametrics_data"
+        },
+        {
+          "name": "VICTORIAMETRICS_BACKUP_SERVICE_LABEL",
+          "label": "Victoria Metrics Backup Service label",
+          "default": "victoriametrics"
+        }
+      ]
     }
   ]
 }
