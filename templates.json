@@ -62,6 +62,17 @@
     },
     {
       "type": 2,
+      "title": "pangolin",
+      "description": "pangolin client application",
+      "categories": ["Homelab", "Tooling"],
+      "platform": "linux",
+      "repository": {
+        "url": "https://github.com/HomelabGeneration/docker-applications-third-party",
+        "stackfile": "applications/pangolin/docker-compose.yml"
+      }
+    },
+    {
+      "type": 2,
       "title": "Heimdall",
       "description": "Heimdall is an elegant solution to organise all your web applications. It’s dedicated to this purpose so you won’t lose your links in a sea of bookmarks.",
       "categories": ["Homelab", "Tunneling"],
