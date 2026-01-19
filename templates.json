@@ -523,7 +523,7 @@
         },
         {
           "name": "VOLUME_NAME_DATA",
-          "label": "Victoria Metrics Backup Service label",
+          "label": "Volume name data",
           "description": "Volume name for the mail archiver data",
           "default": "mailarchiver_data"
         }
