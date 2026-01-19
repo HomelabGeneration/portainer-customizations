@@ -498,6 +498,36 @@
           "default": "victoriametrics"
         }
       ]
+    },
+    {
+      "type": 2,
+      "title": "Mail archiver",
+      "description": "A comprehensive solution for archiving, searching, and exporting emails",
+      "categories": ["Homelab", "Tooling", "Email"],
+      "platform": "linux",
+      "repository": {
+        "url": "https://github.com/HomelabGeneration/docker-applications-third-party",
+        "stackfile": "applications/mail_archiver/docker-compose.yml"
+      },
+      "env": [
+        {
+          "name": "HTTP_PORT",
+          "label": "HTTP port",
+          "default": "5000"
+        },
+        {
+          "name": "VOLUME_NAME_DATA_KEYS",
+          "label": "Volume name data keys",
+          "description": "Volume name for the mail archiver data keys",
+          "default": "mailarchiver_data_keys"
+        },
+        {
+          "name": "VOLUME_NAME_DATA",
+          "label": "Victoria Metrics Backup Service label",
+          "description": "Volume name for the mail archiver data",
+          "default": "mailarchiver_data"
+        }
+      ]
     }
   ]
 }
