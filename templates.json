@@ -528,6 +528,36 @@
           "default": "mailarchiver_data"
         }
       ]
+    },
+    {
+      "type": 2,
+      "title": "Mealie",
+      "description": "A Place For All Your Recipes",
+      "categories": ["Homelab", "Tooling", "Food"],
+      "platform": "linux",
+      "repository": {
+        "url": "https://github.com/HomelabGeneration/docker-applications-third-party",
+        "stackfile": "applications/mealie/docker-compose.yml"
+      },
+      "env": [
+        {
+          "name": "HTTP_PORT",
+          "label": "HTTP port",
+          "default": "9925"
+        },
+        {
+          "name": "VOLUME_NAME",
+          "label": "Volume name",
+          "description": "Volume name for the mealie data",
+          "default": "mealie_data"
+        },
+        {
+          "name": "BASE_URL",
+          "label": "Base url",
+          "description": "Base url used for notifications",
+          "default": "http://localhost:9925"
+        }
+      ]
     }
   ]
 }
