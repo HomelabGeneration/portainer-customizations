@@ -558,6 +558,60 @@
           "default": "http://localhost:9925"
         }
       ]
+    },
+    {
+      "type": 2,
+      "title": "Immich",
+      "description": "Self-hosted photo and video management solution",
+      "categories": ["Homelab", "Tooling", "Media"],
+      "platform": "linux",
+      "repository": {
+        "url": "https://github.com/HomelabGeneration/docker-applications-third-party",
+        "stackfile": "applications/immich/docker-compose.yml"
+      },
+      "env": [
+        {
+          "name": "HTTP_PORT",
+          "label": "HTTP port",
+          "default": "2283"
+        },
+        {
+          "name": "VOLUME_NAME_MODEL_CACHE",
+          "label": "Volume name model cache",
+          "description": "Volume name for the immich model cache",
+          "default": "immich_model_cache"
+        },
+        {
+          "name": "VOLUME_NAME_DATA",
+          "label": "Volume name data",
+          "description": "Volume name for the immich data (photos, videos, etc)",
+          "default": "immich_data"
+        },
+        {
+          "name": "VOLUME_NAME_DB",
+          "label": "Volume name db",
+          "description": "Volume name for the immich db",
+          "default": "immich_db"
+        },
+        {
+          "name": "IMMICH_VERSION",
+          "label": "Immich version",
+          "description": "Immich version to use",
+          "default": "v2"
+        },
+        {
+          "name": "DB_USERNAME",
+          "label": "DB username",
+          "description": "Database username",
+          "default": "postgres"
+        },
+        {
+          "name": "DB_DATABASE_NAME",
+          "label": "DB database name",
+          "description": "Database name to use",
+          "default": "immich"
+        }
+      ]
     }
   ]
 }
