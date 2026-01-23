@@ -600,6 +600,11 @@
           "default": "v2"
         },
         {
+          "name": "IMMICH_DATA_LIBRARY",
+          "label": "Immich data library path",
+          "description": "The path to the data library. (e.g. NFS share)"
+        },
+        {
           "name": "DB_USERNAME",
           "label": "DB username",
           "description": "Database username",
