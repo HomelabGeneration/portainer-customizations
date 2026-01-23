@@ -588,6 +588,12 @@
           "default": "immich_data"
         },
         {
+          "name": "VOLUME_NAME_DATA_LIBRARY",
+          "label": "Volume name data library",
+          "description": "Volume name for the immich data (photos, videos, etc)",
+          "default": "immich_data_library"
+        },
+        {
           "name": "VOLUME_NAME_DB",
           "label": "Volume name db",
           "description": "Volume name for the immich db",
