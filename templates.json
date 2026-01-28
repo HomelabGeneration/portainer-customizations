@@ -606,6 +606,12 @@
           "default": "v2"
         },
         {
+          "name": "IMMICH_ALLOW_SETUP",
+          "label": "Immich allow access to admin setup",
+          "description": "Immich allow access to admin setup",
+          "default": "true"
+        },
+        {
           "name": "DB_USERNAME",
           "label": "DB username",
           "description": "Database username",
