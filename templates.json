@@ -674,6 +674,41 @@
           "name": "SEAFILE_ADMIN_EMAIL",
           "label": "Admin email",
           "description": "Email address for the initial seafile admin account"
+        },
+        {
+          "name": "COLLABORA_PORT",
+          "label": "Collabora port",
+          "description": "Port for Collabora Online (office editing)",
+          "default": "9980"
+        },
+        {
+          "name": "COLLABORA_SERVER_HOSTNAME",
+          "label": "Collabora hostname",
+          "description": "Public hostname for Collabora (e.g. collabora.example.com, must be reachable from browser via reverse proxy)"
+        },
+        {
+          "name": "ONLYOFFICE_PORT",
+          "label": "ONLYOFFICE port",
+          "description": "Port for ONLYOFFICE Document Server",
+          "default": "6233"
+        },
+        {
+          "name": "VOLUME_NAME_ONLYOFFICE_DATA",
+          "label": "Volume ONLYOFFICE data",
+          "description": "ONLYOFFICE-Daten",
+          "default": "seafile_onlyoffice_data"
+        },
+        {
+          "name": "VOLUME_NAME_ONLYOFFICE_LIB",
+          "label": "Volume ONLYOFFICE lib",
+          "description": "ONLYOFFICE-Lib (PostgreSQL, Converter)",
+          "default": "seafile_onlyoffice_lib"
+        },
+        {
+          "name": "VOLUME_NAME_ONLYOFFICE_LOG",
+          "label": "Volume ONLYOFFICE log",
+          "description": "ONLYOFFICE-Logs",
+          "default": "seafile_onlyoffice_log"
         }
       ]
     }
