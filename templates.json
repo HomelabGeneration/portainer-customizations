@@ -709,6 +709,12 @@
           "label": "Volume ONLYOFFICE log",
           "description": "ONLYOFFICE-Logs",
           "default": "seafile_onlyoffice_log"
+        },
+        {
+          "name": "MD_MAX_CACHE_SIZE",
+          "label": "Metadata Server cache size",
+          "description": "Maximale Cache-Groesse fuer den Metadata Server",
+          "default": "1GB"
         }
       ]
     }
