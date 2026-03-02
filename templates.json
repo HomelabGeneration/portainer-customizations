@@ -717,6 +717,46 @@
           "default": "1GB"
         }
       ]
+    },
+    {
+      "type": 2,
+      "title": "Traefik",
+      "description": "Reverse proxy with automatic Let's Encrypt TLS via deSEC DNS-01",
+      "categories": ["Homelab", "Networking", "Reverse Proxy"],
+      "platform": "linux",
+      "repository": {
+        "url": "https://github.com/HomelabGeneration/docker-applications-third-party",
+        "stackfile": "applications/traefik/docker-compose.yml"
+      },
+      "env": [
+        {
+          "name": "ACME_EMAIL",
+          "label": "ACME email",
+          "description": "Email address for Let's Encrypt certificate registration"
+        },
+        {
+          "name": "DASHBOARD_HOST",
+          "label": "Dashboard hostname",
+          "description": "Hostname for the Traefik dashboard (e.g. traefik.yourdomain.com)"
+        },
+        {
+          "name": "TLS_DOMAIN",
+          "label": "TLS domain",
+          "description": "Base domain for wildcard certificate (e.g. lab.yourdomain.com)"
+        },
+        {
+          "name": "DYNAMIC_CONFIG_PATH",
+          "label": "Dynamic config path",
+          "description": "Host path to the dynamic configuration directory",
+          "default": "/opt/traefik/dynamic"
+        },
+        {
+          "name": "VOLUME_NAME_CERTIFICATES",
+          "label": "Volume name certificates",
+          "description": "Volume name for Let's Encrypt certificate storage",
+          "default": "traefik_certificates"
+        }
+      ]
     }
   ]
 }
