@@ -105,6 +105,11 @@
           "label": "Volume name",
           "description": "Volume name for config data",
           "default": "heimdall_config"
+        },
+        {
+          "name": "TRAEFIK_HOST",
+          "label": "Traefik hostname",
+          "description": "Hostname for Traefik routing to Seafile (e.g. app.lab.example.com)"
         }
       ]
     },
@@ -132,6 +137,11 @@
           "name": "DOZZLE_REMOTE_AGENT_ONE",
           "label": "Dozzle remote agent",
           "description": "Provide in format host:port"
+        },
+        {
+          "name": "TRAEFIK_HOST",
+          "label": "Traefik hostname",
+          "description": "Hostname for Traefik routing to Seafile (e.g. app.lab.example.com)"
         }
       ]
     },
@@ -241,6 +251,11 @@
         {
           "name": "VOLUME_NAME",
           "label": "Volume name"
+        },
+        {
+          "name": "TRAEFIK_HOST",
+          "label": "Traefik hostname",
+          "description": "Hostname for Traefik routing to Seafile (e.g. app.lab.example.com)"
         }
       ]
     },
@@ -349,6 +364,11 @@
         {
           "name": "EXPORT_DIR",
           "label": "Export dir"
+        },
+        {
+          "name": "TRAEFIK_HOST",
+          "label": "Traefik hostname",
+          "description": "Hostname for Traefik routing to Seafile (e.g. app.lab.example.com)"
         }
       ]
     },
@@ -462,6 +482,11 @@
           "name": "EVCC_BACKUP_SERVICE_LABEL",
           "label": "EVCC Backup Service label",
           "default": "evcc"
+        },
+        {
+          "name": "TRAEFIK_HOST",
+          "label": "Traefik hostname",
+          "description": "Hostname for Traefik routing to Seafile (e.g. app.lab.example.com)"
         }
       ]
     },
@@ -496,6 +521,11 @@
           "name": "VICTORIAMETRICS_BACKUP_SERVICE_LABEL",
           "label": "Victoria Metrics Backup Service label",
           "default": "victoriametrics"
+        },
+        {
+          "name": "TRAEFIK_HOST",
+          "label": "Traefik hostname",
+          "description": "Hostname for Traefik routing to Seafile (e.g. app.lab.example.com)"
         }
       ]
     },
@@ -556,6 +586,11 @@
           "label": "Base url",
           "description": "Base url used for notifications",
           "default": "http://localhost:9925"
+        },
+        {
+          "name": "TRAEFIK_HOST",
+          "label": "Traefik hostname",
+          "description": "Hostname for Traefik routing to Seafile (e.g. app.lab.example.com)"
         }
       ]
     },
@@ -622,6 +657,11 @@
           "label": "DB database name",
           "description": "Database name to use",
           "default": "immich"
+        },
+        {
+          "name": "TRAEFIK_HOST",
+          "label": "Traefik hostname",
+          "description": "Hostname for Traefik routing to Seafile (e.g. app.lab.example.com)"
         }
       ]
     },
@@ -715,6 +755,21 @@
           "label": "Metadata Server cache size",
           "description": "Maximale Cache-Groesse fuer den Metadata Server",
           "default": "1GB"
+        },
+        {
+          "name": "TRAEFIK_HOST",
+          "label": "Traefik hostname (Seafile)",
+          "description": "Hostname for Traefik routing to Seafile (e.g. seafile.lab.example.com)"
+        },
+        {
+          "name": "TRAEFIK_COLLABORA_HOST",
+          "label": "Traefik hostname (Collabora)",
+          "description": "Hostname for Traefik routing to Collabora (e.g. collabora.lab.example.com)"
+        },
+        {
+          "name": "TRAEFIK_ONLYOFFICE_HOST",
+          "label": "Traefik hostname (ONLYOFFICE)",
+          "description": "Hostname for Traefik routing to ONLYOFFICE (e.g. onlyoffice.lab.example.com)"
         }
       ]
     },
